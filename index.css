@@ -1,0 +1,44 @@
+:root {
+    --primary: #EDE7E3;
+    --secondary: #16667A;
+    --accent: #FFA62B;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.input-button button {
+    background-color: var(--secondary);
+    color: var(--accent);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    right: 30px;
+}
+
+.input-button button:hover {
+    background-color: var(--accent);
+}
+
+.footer {
+    align-self: center;
+    background-color: #16667A;
+}
+
+.card {
+    align-items: center;
+    color: #16667A;
+}
+
+.card-text {
+    text-align: left;
+}
+
+.input-text {
+    text-align: right;
+}
