@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Kylee Nelson, kyleenelson -->
 
 <head>
     <meta charset="UTF-8">
@@ -42,19 +43,45 @@
 </nav>
 
 <body>
+    <!--image  carousel -->
+    <section class="carousel" id="carousel">
+        <div class="d-flex justify-content-center">
+            <div class="slides">
+                <div class="slide slide-1">
+                    <img src="./DSC_2797.JPG" alt="image1">
+                </div>
+                <div class="slide slide-2">
+                    <img src="./IMG_6889.jpg" alt="image1">
+                </div>
+                <div class="slide slide-3">
+                    <img src="./IMG_7847.JPG" alt="image1">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </section>
+    <!-- input form -->
     <section id="footer">
-        <div class="card" style="width: 30rem;">
-            <div class="card-body">
-                <h5 class="card-title">Put in your info to connect!</h5>
-                <p class="card-text"><br>
-                <form action="/submit-form" method="POST">
-                    Enter your name: <input type="text" class="input-text" name="name"><br>
-                    Enter the date: <input type="date" class="input-text" name="date"><br>
-                    Enter your Email: <input type="email" class="input-text" name="email"><br>
-                    What is your age: <input type="number" class="input-text" name="age"><br>
-                    <input type="submit" value="Submit" class="input-button">
-                </form>
-                </p>
+        <div class="d-flex justify-content-center">
+            <div class="card" style="width: 30rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Put in your info to connect!</h5>
+                    <p class="card-text"><br>
+                    <form action="/submit-form" method="POST">
+                        Enter your name: <input type="text" class="input-text" name="name"><br>
+                        <br>
+                        Enter the date: <input type="date" class="input-text" name="date"><br>
+                        <br>
+                        Enter your Email: <input type="email" class="input-text" name="email"><br>
+                        <br>
+                        What is your age: <input type="number" class="input-text" name="age"><br>
+                        <br>
+                        <input type="submit" value="Submit" class="input-button">
+                    </form>
+                    </p>
+                </div>
             </div>
         </div>
     </section>
