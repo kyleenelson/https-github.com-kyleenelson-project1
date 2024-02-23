@@ -8,8 +8,14 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Google Fonts */
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .card-title {
-    justify-content: center;
+    position: absolute;
+    left: 20px;
 }
 
 .input-button {
@@ -25,28 +31,39 @@ html {
     margin: 0 auto;
 }
 
-.input-button button:hover {
+.input-button:hover {
     background-color: var(--accent);
 }
 
-.footer {
+#footer {
     align-self: center;
     background-color: #16667A;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .card {
     align-items: center;
-    color: #16667A;
+    color: var(--primary);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .card-text {
-    text-align: left;
+    text-align: center;
 }
 
 .input-text {
-    text-align: right;
+    display: right;
+    margin-bottom: 10px;
 }
 
+.input-text[name="name"],
+.input-text[name="date"],
+.input-text[name="email"],
+.input-text[name="age"] {
+    width: 100%;
+}
 
 .hw6-container {
     min-height: 100vh;
