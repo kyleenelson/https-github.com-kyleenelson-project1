@@ -23,7 +23,7 @@ html {
 .card-title1 {
     color: var(--accent);
     position: absolute;
-    left: 200px;
+    left: 230px;
 }
 
 .card-title {
@@ -142,4 +142,9 @@ html {
     50% {
         opacity: 0
     }
+}
+
+/* styling about image */
+.aboutme {
+    border-radius: 15%;
 }
