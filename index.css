@@ -22,15 +22,36 @@ html {
 
 .card-title1 {
     color: var(--accent);
+    justify-content: center;
     position: absolute;
-    left: 230px;
+    left: 120px;
 }
 
-.card-title {
+.card-title2 {
+    color: var(--accent);
+    justify-content: center;
+    position: absolute;
+    left: 120px;
+}
+
+.card-title3 {
+    color: var(--accent);
+    justify-content: center;
+    position: absolute;
+    left: 120px;
+}
+
+/* .card-title2 {
     color: var(--accent);
     position: absolute;
     left: 120px;
 }
+
+.card-title3 {
+    color: var(accent);
+    position: absolute;
+    left: 225px
+} */
 
 /* how can I get this in the accent color? I want the title of the form in the accent color */
 .input-button {
@@ -103,6 +124,7 @@ html {
     height: 100%;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
     opacity: 0;
     inset: 0;
     animation: slide-show 12s infinite;
@@ -115,6 +137,7 @@ html {
 .slide-3 {
     animation-delay: 8s;
 }
+
 
 .slide img {
     width: 100%;
@@ -142,9 +165,4 @@ html {
     50% {
         opacity: 0
     }
-}
-
-/* styling about image */
-.aboutme {
-    border-radius: 15%;
 }
