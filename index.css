@@ -9,19 +9,21 @@ html {
 }
 
 /* Nav bar styling. Changing colors and adding hover effect. */
+.navbar {
+    background-color: var(--secondary);
+}
+
+/* how can I get this color to change to the accent? it is not working. */
+.navbar-nav .accent-link {
+    color: var(--accent)
+}
 
 .navbar-nav .nav-link {
-    color: var(--secondary);
+    color: white;
 }
 
 .navbar-nav .nav-link:hover {
     color: var(--accent);
-
-}
-
-/* Google Fonts */
-.body {
-    font-family: 'Poppins', sans-serif;
 }
 
 /* styling the title */
