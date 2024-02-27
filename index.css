@@ -33,6 +33,7 @@ html {
 
 /* styling the card titles, making them the accent. Still need help getting them all centered... */
 .card-title1 {
+    align-items: center;
     color: var(--accent);
     justify-content: center;
     position: absolute;
@@ -40,6 +41,7 @@ html {
 }
 
 .card-title2 {
+    align-items: center;
     color: var(--accent);
     justify-content: center;
     position: absolute;
@@ -47,12 +49,15 @@ html {
 }
 
 .card-title3 {
+    align-items: center;
     color: var(--accent);
     justify-content: center;
     position: absolute;
     left: 120px;
 }
 
+
+/* form styling */
 .input-button {
     justify-content: center;
     background-color: var(--secondary);
@@ -74,7 +79,6 @@ html {
     align-self: center;
     background-color: #16667A;
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .card {
@@ -164,4 +168,44 @@ html {
     50% {
         opacity: 0
     }
+}
+
+/* styling footer */
+.footer {
+    background-color: #16667A;
+    padding: 20px 0;
+    /* Add padding to the top and bottom of the footer */
+}
+
+.fa {
+    color: white;
+    margin: 0 10px;
+}
+
+.fa:hover {
+    color: #ffcc00;
+    /* Change the color of the icons when hovered */
+}
+
+/* styling certifications. I want to change the main title to the accent and then also the certifications to the accent */
+.card-title4 {
+    align-items: center;
+    color: var(--accent);
+    /* justify-content: center;
+    position: absolute;
+    left: 120px;
+    */
+}
+
+#certifications .list-group {
+    list-style: none;
+
+}
+
+.list-title1 {
+    color: var(--accent);
+}
+
+.list-title2 {
+    color: var(--accent);
 }
