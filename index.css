@@ -13,7 +13,6 @@ html {
     background-color: var(--secondary);
 }
 
-/* how can I get this color to change to the accent? it is not working. */
 .navbar-nav .accent-link.accent-link.accent-link.accent-link {
     color: var(--accent)
 }
@@ -40,29 +39,27 @@ html {
 
 /* styling the card titles, making them the accent. Still need help getting them all centered... */
 .card-title1 {
-    align-items: center;
+    text-align: center;
     color: var(--accent);
     justify-content: center;
-    position: absolute;
-    left: 120px;
 }
 
 .card-title2 {
-    align-items: center;
+    text-align: center;
     color: var(--accent);
     justify-content: center;
-    position: absolute;
-    left: 120px;
 }
 
 .card-title3 {
-    align-items: center;
+    text-align: center;
     color: var(--accent);
     justify-content: center;
-    position: absolute;
-    left: 120px;
 }
 
+.card-title4 {
+    text-align: center;
+    color: var(--accent);
+}
 
 /* form styling */
 .input-button {
@@ -195,7 +192,7 @@ html {
 
 /* styling certifications. I want to change the main title to the accent and then also the certifications to the accent */
 .card-title4 {
-    align-items: center;
+    text-align: center;
     color: var(--accent);
     justify-content: center;
     position: absolute;
