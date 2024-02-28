@@ -1,3 +1,4 @@
+/* adding the color scheme */
 :root {
     --primary: #EDE7E3;
     --secondary: #16667A;
@@ -8,6 +9,7 @@ html {
     scroll-behavior: smooth;
 }
 
+/* google fonts incorporated in the doc */
 * {
     font-family: "Poppins", sans-serif;
 }
@@ -32,7 +34,6 @@ html {
 /* styling the title */
 .container1 {
     background-color: var(--secondary);
-    /* margin-top: 20px; */
     margin-bottom: 20px;
 }
 
@@ -41,7 +42,7 @@ html {
     border-color: #EDE7E3;
 }
 
-/* styling the card titles, making them the accent. Still need help getting them all centered... */
+/* styling the card titles*/
 .card-title1 {
     text-align: center;
     color: var(--accent);
@@ -100,6 +101,9 @@ html {
     margin-bottom: 10px;
 }
 
+/* I asked chat to help me add words to fill/prompt the user for info. my prompt: "Can you help me style my form 
+so that in the form boxes it prompts users for info?" The code below is what was outputted. I had to form it different 
+so that the css would be linked to my page. */
 .input-text[name="name"],
 .input-text[name="date"],
 .input-text[name="email"],
@@ -177,7 +181,6 @@ html {
 .footer {
     background-color: #16667A;
     padding: 20px 0;
-    /* Add padding to the top and bottom of the footer */
 }
 
 .footer .fab {
