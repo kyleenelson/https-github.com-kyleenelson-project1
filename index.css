@@ -8,6 +8,10 @@ html {
     scroll-behavior: smooth;
 }
 
+* {
+    font-family: "Poppins", sans-serif;
+}
+
 /* Nav bar styling. Changing colors and adding hover effect. */
 .navbar {
     background-color: var(--secondary);
@@ -54,11 +58,6 @@ html {
     text-align: center;
     color: var(--accent);
     justify-content: center;
-}
-
-.card-title4 {
-    text-align: center;
-    color: var(--accent);
 }
 
 /* form styling */
@@ -194,10 +193,12 @@ html {
 .card-title4 {
     text-align: center;
     color: var(--accent);
-    justify-content: center;
-    position: absolute;
-    left: 120px;
 
+}
+
+.certs {
+    font-size: .75em;
+    font-weight: normal;
 }
 
 .list-group {
