@@ -29,8 +29,13 @@ html {
 /* styling the title */
 .container1 {
     background-color: var(--secondary);
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-bottom: 20px;
+}
+
+.card {
+    height: 100%;
+    border-color: var(--accent);
 }
 
 /* styling the card titles, making them the accent. Still need help getting them all centered... */
@@ -179,35 +184,30 @@ html {
     /* Add padding to the top and bottom of the footer */
 }
 
-.fa {
-    color: white;
-    margin: 0 10px;
+.footer .fab {
+    color: var(--accent);
+    padding: 1.5%;
 }
 
-.fa:hover {
-    color: #ffcc00;
-    /* Change the color of the icons when hovered */
+.fab:hover {
+    color: var(--primary);
 }
 
 /* styling certifications. I want to change the main title to the accent and then also the certifications to the accent */
 .card-title4 {
     align-items: center;
     color: var(--accent);
-    /* justify-content: center;
+    justify-content: center;
     position: absolute;
     left: 120px;
-    */
+
 }
 
-#certifications .list-group {
+.list-group {
     list-style: none;
-
 }
 
-.list-title1 {
-    color: var(--accent);
-}
-
+.list-title1,
 .list-title2 {
     color: var(--accent);
 }
