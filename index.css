@@ -14,7 +14,7 @@ html {
 }
 
 /* how can I get this color to change to the accent? it is not working. */
-.navbar-nav .accent-link {
+.navbar-nav .accent-link.accent-link.accent-link.accent-link {
     color: var(--accent)
 }
 
@@ -35,7 +35,7 @@ html {
 
 .card {
     height: 100%;
-    border-color: var(--accent);
+    border-color: #EDE7E3;
 }
 
 /* styling the card titles, making them the accent. Still need help getting them all centered... */
